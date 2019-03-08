@@ -1,0 +1,57 @@
+@CHARSET "ISO-8859-1";
+ body, p, legend, label, input {
+ font: normal 8pt verdana, helvetica, sans-serif;
+ }
+
+ fieldset {
+ padding: 10px;
+ border: 1px #0568CD solid;
+ }
+ legend {
+ font-weight: bold;
+ color: #0568CD;
+ }
+ form label {
+ float: left;
+ width: 200px;
+ margin: 3px 0px 0px 0px;
+ }
+ form input {
+ margin: 3px 3px 0px 0px;
+ border: 1px #999 solid;
+ }
+ form input.sansLabel {
+ margin-left: 200px;
+ }
+ form .requis {
+ color: #c00;
+ }
+ span {
+ color: #c00;
+ }
+ /* Tables */
+ table{
+ border-collapse: collapse;
+ }
+ tr.pair{
+ background-color: #fff;
+ }
+ tr.impair{
+ background-color: #ddd;
+ }
+ th{
+ color: #0568CD;
+ border: 1px solid #0568CD;
+ padding: 5px;
+ }
+ th.action{
+ border: 1px solid #900;
+ color: #900;
+ }
+ td{
+ border: 1px solid #ddd;
+ padding: 5px;
+ }
+ td.action{
+ text-align: center;
+ }
